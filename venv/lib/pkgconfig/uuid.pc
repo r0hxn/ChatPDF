@@ -1,0 +1,11 @@
+prefix=/home/gunsngains/Desktop/proj/venv
+exec_prefix=/home/gunsngains/Desktop/proj/venv
+libdir=/home/gunsngains/Desktop/proj/venv/lib
+includedir=/home/gunsngains/Desktop/proj/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/gunsngains/Desktop/proj/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.50.3
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lm -lz -ldl -lpthread -L/home/gunsngains/Desktop/proj/venv/lib -licui18n -licuuc -licudata
+Cflags: -I${includedir}
